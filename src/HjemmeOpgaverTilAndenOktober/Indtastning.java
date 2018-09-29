@@ -30,7 +30,10 @@ public class Indtastning {
         double textafter = momsRegner.momsReturnerTal(text);
         */
 
-        return tal;
+        MomsRegner momsRegner = new MomsRegner();
+        //Her skulle scanner have haft været istedet for parameteret.
+
+        return momsRegner.momsReturnerTal(tal);
     }
 
     //Skal lave den her metode før jeg laver test klassen eller virker intellij+junit ikke.

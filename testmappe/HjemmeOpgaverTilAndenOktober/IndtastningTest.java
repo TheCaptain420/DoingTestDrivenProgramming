@@ -54,10 +54,19 @@ public class IndtastningTest {
 
 
         //3.
-
+        double tal1 =5;
+        double tal2 =5;
 
         //2.
+        Indtastning indtastning = new Indtastning();
+
 
         //1.
+        assertNotEquals(tal2,indtastning.HentTal(tal1));
+
+
     }
+
+
+
 }
