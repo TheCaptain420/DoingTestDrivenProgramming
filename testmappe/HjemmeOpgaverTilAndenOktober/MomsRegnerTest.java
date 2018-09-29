@@ -20,7 +20,7 @@ public class MomsRegnerTest {
    assertEquals(9,sksks.add(5,5));
    */
 
-
+    //test 1
     @Test
     public void momsudregningReturnereEtTal() {
 
@@ -36,4 +36,24 @@ public class MomsRegnerTest {
         assertEquals(efter,momsRegner.momsReturnerTal(foer),0.001);
 
     }
+
+    //test 2
+    @Test
+    public void momsAendrerTallet(){
+        //altså den ikke bare returnere det samme igen.
+        //så vi kan se den gør noget ved tallet.
+
+        //3.
+        double foer = 5;
+        double efter = 5;
+
+
+        //2.
+        MomsRegner momsRegner = new MomsRegner();
+
+        //1.
+        assertNotEquals(efter,momsRegner.momsReturnerTal(foer),0.000001);
+
+    }
+
 }
