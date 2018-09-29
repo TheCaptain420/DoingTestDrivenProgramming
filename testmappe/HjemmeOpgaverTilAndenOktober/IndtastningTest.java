@@ -33,13 +33,20 @@ public class IndtastningTest {
     @Test
     public void testOmDenReturnerTal() {
 
+        //Det kan man så ikke på den måde som jeg ønsket mig... hmmm
+        //Det her går godt:D
+
 
         //3.
 
 
         //2.
+        Indtastning indtastning = new Indtastning();
+        double tal = indtastning.HentTal(5);
 
+        assertSame(Double.class, ((Object) indtastning.HentTal(5)));
         //1.
+        //assertEquals(Double.TYPE,indtastning.HentTal(5));
     }
 
     @Test
