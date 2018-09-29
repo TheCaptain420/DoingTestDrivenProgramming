@@ -1,1 +1,9 @@
-Document der indeholder alle testCases.
+Document der indeholder alle testCases:
+
+Test om momsregner returnere et tal.
+Test om momsregner laver ændrer tallet(så man får momsværdien).
+Test om momsregner returnere det rigtige tal.
+
+Test om indtastning tager et tal ind.
+Test om indtastning returnere et tal.
+Test om indtastning returnere det samme tal som man indtastede.

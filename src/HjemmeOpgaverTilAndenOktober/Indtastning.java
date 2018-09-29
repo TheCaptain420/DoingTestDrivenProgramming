@@ -19,4 +19,9 @@ package HjemmeOpgaverTilAndenOktober;
 
 
 public class Indtastning {
+
+    //Skal lave den her metode før jeg laver test klassen eller virker intellij+junit ikke.
+    //så ignore den:D
+    public void test(){
+    }
 }

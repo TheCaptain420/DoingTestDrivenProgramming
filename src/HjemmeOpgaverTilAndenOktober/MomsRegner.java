@@ -9,4 +9,22 @@ package HjemmeOpgaverTilAndenOktober;
 * @Mads Nielsen
 * */
 public class MomsRegner {
+
+
+
+
+    public double momsReturnerTal(double tal){
+        return 5;
+    }
+
+
+
+
+    //Skal lave den her metode før jeg laver test klassen eller virker intellij+junit ikke.
+    //så ignore den:D
+    public void test(){
+
+    }
+
+
 }
