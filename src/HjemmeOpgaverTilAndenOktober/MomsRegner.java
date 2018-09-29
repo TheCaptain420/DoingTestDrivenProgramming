@@ -14,7 +14,7 @@ public class MomsRegner {
 
 
     public double momsReturnerTal(double tal){
-        return tal+5;
+        return (tal*0.20);
     }
 
 

@@ -56,4 +56,24 @@ public class MomsRegnerTest {
 
     }
 
+    //Test 3
+    @Test
+    public void momsGiverDetRigtigeTal(){
+        //altså den ikke bare returnere det samme igen.
+        //så vi kan se den gør noget ved tallet.
+
+        //3.
+        double foer = 25;
+        double efter = (foer*0.20);
+
+
+        //2.
+        MomsRegner momsRegner = new MomsRegner();
+
+        //1.
+        assertEquals(efter,momsRegner.momsReturnerTal(foer),0.000001);
+
+    }
+
+
 }
