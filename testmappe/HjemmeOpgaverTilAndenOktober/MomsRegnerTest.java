@@ -25,7 +25,7 @@ public class MomsRegnerTest {
     public void momsudregningReturnereEtTal() {
 
 
-        //
+        //3.
         double foer = 25;
         double efter = 5;
 

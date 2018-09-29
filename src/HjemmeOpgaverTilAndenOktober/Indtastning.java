@@ -16,9 +16,26 @@ package HjemmeOpgaverTilAndenOktober;
 * */
 
 
-
+import java.util.Scanner;
 
 public class Indtastning {
 
 
+    public double HentTal(double tal){
+       //Sådan her skulle den have haft set ud.
+        /*Scanner scanner = new Scanner(System.in);
+        MomsRegner momsRegner = new MomsRegner();
+
+        double text = scanner.nextDouble();
+        double textafter = momsRegner.momsReturnerTal(text);
+        */
+
+        return tal;
+    }
+
+    //Skal lave den her metode før jeg laver test klassen eller virker intellij+junit ikke.
+    //så ignore den:D
+    public void test(){
+
+    }
 }

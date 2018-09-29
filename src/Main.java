@@ -1,3 +1,4 @@
+import HjemmeOpgaverTilAndenOktober.Indtastning;
 import linjemellemtopunkter.Linje;
 import linjemellemtopunkter.Punkt;
 

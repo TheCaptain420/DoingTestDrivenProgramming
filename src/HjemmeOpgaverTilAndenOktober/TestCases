@@ -4,6 +4,6 @@ Document der indeholder alle testCases:
 2.Test om momsregner ændrer tallet(så man får momsværdien).
 3.Test om momsregner returnere det rigtige tal.
 
-4.Test om indtastning tager et tal ind.
+4.Test om indtastning tager noget ind.
 5.Test om indtastning returnere et tal.
 6.Test om indtastning returnere det samme tal som man indtastede.
