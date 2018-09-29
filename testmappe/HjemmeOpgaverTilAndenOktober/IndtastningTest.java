@@ -50,7 +50,7 @@ public class IndtastningTest {
     }
 
     @Test
-    public void tes2tOmDenTagerNogetInd() {
+    public void testOmDenGoerNogetVedTallet() {
 
 
         //3.
@@ -67,6 +67,24 @@ public class IndtastningTest {
 
     }
 
+
+    @Test
+    public void TestForAtSeOmDetVirker(){
+       //Den må man nok hellere have med.
+
+        //3.
+        double foer = 33;
+        double efter = (33*0.20);
+
+        //2.
+        Indtastning indtastning = new Indtastning();
+
+        //1.
+        assertEquals(efter,indtastning.HentTal(foer),0.0001);
+
+
+
+    }
 
 
 }
